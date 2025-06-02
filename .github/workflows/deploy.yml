@@ -39,7 +39,7 @@ jobs:
         run: npm ci
       - name: Build
         env:
-          BASE_URL: /guesser-game/
+          BASE_URL: "/guesser-game/"
         run: npm run build
       - name: Run unit tests
         run: npm run test
