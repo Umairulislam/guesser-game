@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest --config ./vitest.config.ts",
-    "e2e": "playwright test --ui"
+    "e2e": "playwright test --ui",
+    "e2e:cli": "playwright test"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
